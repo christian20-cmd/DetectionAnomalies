@@ -78,7 +78,7 @@ const LogoutModal = ({ handleLogout, onCancel }) => (
 const Sidebar = () => {
     const location = useLocation();
     const { theme, toggleTheme } = useTheme();
-    const navigate = useNavigate();                    // ← ici, DANS le composant
+    const navigate = useNavigate();                    // ← ici, DANS le composantooo
     const [collapsed, setCollapsed] = useState(false);
     const [showLogoutModal, setShowLogoutModal] = useState(false);
     const [tooltip, setTooltip] = useState(null);
